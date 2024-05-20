@@ -15,11 +15,11 @@ namespace DelegateOOP1
             searchDouble = SmallDouble;
 
             Console.Write("x = ");
-            int x = int.Parse(Console.ReadLine());
+            double x = double.Parse(Console.ReadLine());
             Console.Write("y = ");
-            int y = int.Parse(Console.ReadLine());
+            double y = double.Parse(Console.ReadLine());
             Console.Write("z = ");
-            int z = int.Parse(Console.ReadLine());
+            double z = double.Parse(Console.ReadLine());
 
             Console.WriteLine($"Наименьшее = {searchDouble(x, y, z)}");
 
